@@ -1,0 +1,10 @@
+.with-buttons {
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	gap: 1px;
+}
+.with-buttons__button {
+	white-space: nowrap;
+}

@@ -1,0 +1,23 @@
+.test {
+	width: 600px;
+}
+
+.form-item {
+	display: flex;
+	gap: 5px;
+}
+
+.option {
+	cursor: pointer;
+}
+.option__header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.option__flag {
+	width: 40px;
+}
+.option__body {
+	font-style: italic;
+}
