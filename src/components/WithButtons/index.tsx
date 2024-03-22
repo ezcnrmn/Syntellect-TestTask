@@ -5,7 +5,7 @@ import "./WithButtons.css";
 interface ButtonProps {
 	key: React.Key;
 	text: string;
-	onClick: () => void;
+	onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 interface WithButtonsProps extends React.PropsWithChildren {
 	prefixes?: ButtonProps[];

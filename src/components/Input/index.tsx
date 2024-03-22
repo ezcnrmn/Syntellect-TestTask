@@ -1,7 +1,7 @@
 import React from "react";
 import "./Input.css";
 
-interface InputProps {
+interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 	[key: string]: unknown;
 }
 
